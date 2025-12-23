@@ -1,0 +1,15 @@
+#存储已注册用户的加密密码
+
+cookie:
+  expiry_days: 30
+  key: random_signature_key_123
+  name: translation_app_cookie
+credentials:
+  usernames:
+    admin:
+      name: Administrator
+      password: $2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeK6BLg9kp.0e.L3Q/y
+      # 默认只有 admin 账号，密码是: abc123456
+      # 其他用户需要通过前端注册写入这里
+preauthorized:
+  emails: []
