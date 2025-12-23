@@ -1,6 +1,9 @@
 streamlit
+streamlit-authenticator
 pandas
 python-docx
 openai
 numpy
 scikit-learn
+PyYAML
+bcrypt
